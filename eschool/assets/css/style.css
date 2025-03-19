@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  "Winky Sans", sans-serif;
+}
+.hedar img{
+    height: 100px;
+    width: 250px;
+}
+.hedar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    transition: 1s;
+}
+.nav-link:hover{
+    color: white;
+}
+.btn-link{
+    background-color: burlywood;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
